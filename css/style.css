@@ -2,6 +2,7 @@
     box-sizing: border-box;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
+    scroll-behavior: smooth;
   }
   
   .underline {
@@ -203,7 +204,11 @@
     border-left-color: #80b3e6;
   }
   #education .history::after {
-    background: #80b3e6;
+    background: #c0c7ce;
+  }
+.section-education a {
+    text-decoration: none;
+    color: #468cd3;
   }
   
   #experience .history {
