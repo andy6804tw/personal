@@ -79,8 +79,27 @@
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 0;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .section h3 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .section h4 {
+    font-weight: bold;
+    font-size: 16px;
   }
   
+  .sectionBio{
+      min-height: auto;
+  }
   #bio {
     background: rgba(51, 102, 128, 0.875);
     padding-top: 3em;
@@ -128,9 +147,8 @@
             flex: 7;
     display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
             align-items: center;
   }
