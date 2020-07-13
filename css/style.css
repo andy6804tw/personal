@@ -16,6 +16,10 @@
   .education {
     border-bottom-color: #80b3e6;
   }
+
+  .publication{
+    border-bottom-color: #297548;
+  }
   
   .experience {
     border-bottom-color: #4dcc80;
@@ -62,6 +66,8 @@
   header nav a:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#FFF));
     background: linear-gradient(#EFEFEF, #FFF);
+    color: #444;
+    text-decoration: none;
   }
   header .menu {
     display: none;
@@ -184,31 +190,31 @@
     background: rgba(230, 230, 230, 0.25);
   }
   
-  #education, #experience {
+  #education, #experience, #publication {
     background: #F4F4F4;
   }
-  #education .history, #experience .history {
+  #education .history, #experience .history, #publication .history{
     border-left: 4px solid;
     padding: 24px 0;
     position: relative;
   }
-  #education .history .entry, #experience .history .entry {
+  #education .history .entry, #experience .history .entry, #publication .history .entry {
     background: white;
     padding: 0.5em 2em;
     max-width: 64em;
     border-radius: 0 12px 12px 0;
     margin-bottom: 24px;
   }
-  #education .history .entry .time, #experience .history .entry .time {
+  #education .history .entry .time, #experience .history .entry .time, #publication .history .entry .time {
     color: #bfbfbf;
   }
-  #education .history .entry .time::before, #experience .history .entry .time::before {
+  #education .history .entry .time::before, #experience .history .entry .time::before, #publication .history .entry .time::before{
     content: "\2014\ [";
   }
-  #education .history .entry .time::after, #experience .history .entry .time::after {
+  #education .history .entry .time::after, #experience .history .entry .time::after, #publication .history .entry .time::after{
     content: "]";
   }
-  #education .history::after, #experience .history::after {
+  #education .history::after, #experience .history::after, #publication .history::after{
     content: "";
     position: absolute;
     bottom: -14px;
@@ -222,12 +228,19 @@
     border-left-color: #80b3e6;
   }
   #education .history::after {
-    background: #c0c7ce;
+    background: #80b3e6;
   }
 
 .section-education a {
     text-decoration: none;
     color: #468cd3;
+  }
+
+  #publication .history {
+    border-left-color: #297548;
+  }
+  #publication .history::after {
+    background: #297548;
   }
   
   #experience .history {
