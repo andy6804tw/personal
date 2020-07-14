@@ -370,7 +370,11 @@
   footer a:hover {
     color: #FFF;
   }
-  
+  @media (max-width: 575.98px) { 
+    #portfolio .project {
+      width: 85%;
+    }
+   }
   @media (max-width: 801px) {
     header {
       width: 80vw;
