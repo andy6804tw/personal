@@ -189,6 +189,9 @@
   #bio .right #contact-info a:hover {
     background: rgba(230, 230, 230, 0.25);
   }
+  #bio .social-links a{
+    color: #fff;
+  }
   
   #education, #experience, #publication {
     background: #F4F4F4;
