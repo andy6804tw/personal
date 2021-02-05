@@ -137,7 +137,7 @@
     -webkit-box-align: center;
             align-items: center;
   }
-  #bio .left #picture {
+  #bio .left #picture img{
     border-radius: 50%;
     background: white;
     width: 25vw;
