@@ -26,7 +26,7 @@
   }
 
   .speech{
-    border-bottom-color: #fde142;
+    border-bottom-color: #f5d234;
   }
   
   .skills {
@@ -238,10 +238,10 @@
     background: #80b3e6;
   }
 
-.section-education a {
+/* .section-education a {
     text-decoration: none;
     color: #468cd3;
-  }
+  } */
 
   #publication .history {
     border-left-color: #297548;
@@ -258,10 +258,10 @@
   }
 
   #speech .history {
-    border-left-color: #fde142;
+    border-left-color: #f5d234;
   }
   #speech .history::after {
-    background: #fde142;
+    background: #f5d234;
   }
   
   #skills .category {
