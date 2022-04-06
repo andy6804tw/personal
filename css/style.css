@@ -25,6 +25,10 @@
     border-bottom-color: #4dcc80;
   }
 
+  .achievement{
+    border-bottom-color: #9ef33c;
+  }
+
   .speech{
     border-bottom-color: #f5d234;
   }
@@ -197,31 +201,31 @@
     color: #fff;
   }
   
-  #education, #experience, #publication, #speech {
+  #education, #experience, #publication, #speech, #achievement {
     background: #F4F4F4;
   }
-  #education .history, #experience .history, #publication .history, #speech .history{
+  #education .history, #experience .history, #publication .history, #speech .history, #achievement .history{
     border-left: 4px solid;
     padding: 24px 0;
     position: relative;
   }
-  #education .history .entry, #experience .history .entry, #publication .history .entry, #speech .history .entry {
+  #education .history .entry, #experience .history .entry, #publication .history .entry, #speech .history .entry, #achievement .history .entry{
     background: white;
     padding: 0.5em 2em;
     max-width: 64em;
     border-radius: 0 12px 12px 0;
     margin-bottom: 24px;
   }
-  #education .history .entry .time, #experience .history .entry .time, #publication .history .entry .time , #speech .history .entry .time{
+  #education .history .entry .time, #experience .history .entry .time, #publication .history .entry .time , #speech .history .entry .time, #achievement .history .entry .time{
     color: #bfbfbf;
   }
-  #education .history .entry .time::before, #experience .history .entry .time::before, #publication .history .entry .time::before, #speech .history .entry .time::before{
+  #education .history .entry .time::before, #experience .history .entry .time::before, #publication .history .entry .time::before, #speech .history .entry .time::before, #achievement .history .entry .time::before{
     content: "\2014\ [";
   }
-  #education .history .entry .time::after, #experience .history .entry .time::after, #publication .history .entry .time::after, #speech .history .entry .time::after{
+  #education .history .entry .time::after, #experience .history .entry .time::after, #publication .history .entry .time::after, #speech .history .entry .time::after, #achievement .history .entry .time::after{
     content: "]";
   }
-  #education .history::after, #experience .history::after, #publication .history::after, #speech .history::after{
+  #education .history::after, #experience .history::after, #publication .history::after, #speech .history::after, #achievement .history::after{
     content: "";
     position: absolute;
     bottom: -14px;
@@ -255,6 +259,13 @@
   }
   #experience .history::after {
     background: #4dcc80;
+  }
+
+  #achievement .history{
+    border-left-color: #9ef33c;
+  }
+  #achievement .history::after{
+    background: #9ef33c;
   }
 
   #speech .history {
